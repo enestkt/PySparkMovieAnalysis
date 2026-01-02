@@ -11,14 +11,13 @@ Spark SQL: Performing complex data analysis and joining structured datasets.
 Machine Learning: Building predictive models using Spark's MLlib.
 
 🛠 Tech Stack
+Language: Python (PySpark)
 
-Language: Python (PySpark).
+Engine: Apache Spark
 
-Engine: Apache Spark.
+Libraries: PySpark SQL, PySpark ML, Matplotlib, Pandas
 
-Libraries: PySpark SQL, PySpark ML, Matplotlib, Pandas.
-
-Environment: Spark Virtual Machine.
+Environment: Spark Virtual Machine
 
 📊 Dataset
 The analysis uses the MovieLens dataset, which contains comprehensive information about film categories and user preferences:
@@ -40,7 +39,7 @@ Result: Identified Drama and Comedy as the most prevalent genres in the dataset.
 2. SQL Analysis
 Executed high-performance queries using Spark SQL to extract meaningful insights:
 
-Popular & High-Rated Movies: Filtered for movies with over 100 votes to ensure statistical reliability, identifying top-rated classics like The Shawshank Redemption and The Godfather.
+Popular & High-Rated Movies: Filtered for movies with over 100 votes to ensure statistical reliability, identifying top-rated classics.
 
 Average Ratings by Genre: Leveraged split and explode functions to analyze ratings for individual genres within multi-genre films.
 
